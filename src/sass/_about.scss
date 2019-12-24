@@ -1,0 +1,110 @@
+#about {
+  // -webkit-animation: scale-up-center 1s;
+  //         animation: scale-up-center 1s;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 100vh;
+
+  @include respond(tab-land) {
+    
+  }
+  @include respond(tab-port) {
+    min-height: -webkit-fill-available;
+
+  }
+  @include respond(phone) {
+    min-height: -webkit-fill-available;
+  }
+
+  .about__bio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 1.7rem;
+    padding: 0 10rem 0 5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+    @include respond(tab-land) {
+
+    }
+
+    @include respond(tab-port) {
+      padding: 0 3rem 0 0;
+      font-size: 1.4rem;
+    }
+    @include respond(phone) {
+      padding: 0rem 3rem 0 3rem;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    .descriptions {
+      margin: auto auto;
+    }
+    .description {
+      position: relative;
+      @include respond(tab-port) {
+      }
+      @include respond(phone) {
+      }
+
+      strong {
+        font-weight: inherit;
+      }
+    }
+    .it-description {
+      margin-bottom: 4rem;
+    }
+
+    .flag {
+      position: absolute;
+      -webkit-transform: rotate(-10deg);
+              transform: rotate(-10deg);
+      opacity: 0.1;
+      width: 8rem;
+      border: 1px solid $primary;
+      padding: 0.8rem;
+
+      @include respond(phone) {
+        opacity: 0.2;
+        width: 6rem;
+      }
+    }
+
+    .photo-bio {
+      width: 30%;
+      opacity: .7;
+
+      @include respond(tab-port) {
+        width: 30%;
+      }
+      @include respond(phone) {
+        display: none;
+      }
+    }
+  }
+
+  
+}
+
+

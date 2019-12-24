@@ -1,0 +1,188 @@
+.heading {
+  border-bottom: 1px solid $primary;
+  width: 50%;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 6rem;
+  padding-right: 1rem;
+  color: $primary;
+  text-transform: uppercase;
+  @include respond(tab-port) {
+    font-size: 3rem;
+  }
+  @include respond(phone) {
+    font-size: 2.5rem;
+  }
+}
+
+.active-link {
+  color: $primary !important;
+}
+
+.loader {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+
+  width: calc(100vw - 5rem);
+  position: relative;
+  
+  @include respond(tab-port) {
+    min-height: -webkit-fill-available;
+
+    width: 100vw;
+  }
+
+  .progress-bar {
+    
+    max-width: 40%;
+    position: relative;
+    img {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 30%;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+      margin-bottom: 3rem;
+      position: relative;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+              @include respond(tab-port) {
+               width: 50%;
+              }
+    }
+    span {
+      display: block;
+    }
+  }
+
+  .bar {
+    background: $bar-bg;
+  }
+
+  .progress {
+    -webkit-animation: loader 2s;
+            animation: loader 2s;
+    background: $primary;
+    color: #fff;
+    padding: 1px;
+    width: 0;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+  }
+}
+
+.nav-social {
+  .navbar__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    @include respond(tab-port) {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      height: 100%;
+      padding: 0;
+    }
+  }
+  .navbar__item {
+    margin: auto;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    position: relative;
+
+    @include respond(tab-port) {
+      margin: auto 1rem auto 0;
+    }
+    @include respond(phone) {
+    }
+
+    &:hover i {
+      color: $primary;
+    }
+  }
+  
+  i,svg {
+    width: 2.3rem;
+    height: 2.3rem;
+    fill: $grey-text;
+    font-size: 2.3rem;
+    color: $grey-text;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    &:hover{
+      fill: $primary;
+    }
+    @include respond(tab-port) {
+      font-size: 1.5rem;
+    }
+    span {
+      color: $navbar-bg;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      font-weight: bold;
+      font-size: .9rem;
+      padding: .2rem;
+      @include respond(tab-port) {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  
+
+  
+}
+
+.menu-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+
+  cursor: pointer;
+  @include respond(tab-port) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  i {
+    font-size: 3.5rem;
+    padding:.7rem 1.5rem;
+    
+    color: $primary;
+    
+  }
+}

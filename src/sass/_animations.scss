@@ -1,0 +1,383 @@
+// @-webkit-keyframes animated-text {
+//   from {
+//     width: 0;
+//   }
+//   to {
+//     width: 100%;
+//   }
+// }
+
+// @keyframes animated-text {
+//   from {
+//     width: 0;
+//   }
+//   to {
+//     width: 100%;
+//   }
+// }
+
+@-webkit-keyframes loader {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes loader {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+// .scale-down-center {
+//   -webkit-animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+//     both;
+//   animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+// }
+// @-webkit-keyframes scale-down-center {
+//   0% {
+//     -webkit-transform: scale(1);
+//     transform: scale(1);
+//   }
+//   100% {
+//     -webkit-transform: scale(0.7);
+//     transform: scale(0.7);
+//   }
+// }
+// @keyframes scale-down-center {
+//   0% {
+//     -webkit-transform: scale(1);
+//     transform: scale(1);
+//   }
+//   100% {
+//     -webkit-transform: scale(0.7);
+//     transform: scale(0.7);
+//   }
+// }
+
+// .scale-up-center {
+//   -webkit-animation: scale-up-center 0.5s cubic-bezier(0.39, 0.575, 0.565, 1)
+//     both;
+//   animation: scale-up-center 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+// }
+
+// @-webkit-keyframes scale-up-center {
+//   0% {
+//     -webkit-transform: scale(0.5);
+//     transform: scale(0.5);
+//   }
+//   100% {
+//     -webkit-transform: scale(1);
+//     transform: scale(1);
+//   }
+// }
+// @keyframes scale-up-center {
+//   0% {
+//     -webkit-transform: scale(0.5);
+//     transform: scale(0.5);
+//   }
+//   100% {
+//     -webkit-transform: scale(1);
+//     transform: scale(1);
+//   }
+// }
+
+// .text-focus-in {
+//   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s
+//     both;
+//   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s both;
+// }
+
+// @-webkit-keyframes text-focus-in {
+//   0% {
+//     -webkit-filter: blur(12px);
+//     filter: blur(12px);
+//     opacity: 0;
+//   }
+//   100% {
+//     -webkit-filter: blur(0px);
+//     filter: blur(0px);
+//     opacity: 1;
+//   }
+// }
+// @keyframes text-focus-in {
+//   0% {
+//     -webkit-filter: blur(12px);
+//     filter: blur(12px);
+//     opacity: 0;
+//   }
+//   100% {
+//     -webkit-filter: blur(0px);
+//     filter: blur(0px);
+//     opacity: 1;
+//   }
+// }
+
+ 
+
+
+
+
+@-webkit-keyframes animate-html {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
+@keyframes animate-html {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes animate-css {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes animate-css {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes animate-sass {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes animate-sass {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes animate-bootstrap {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes animate-bootstrap {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes animate-js {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes animate-js {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes animate-jquery {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes animate-jquery {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@-webkit-keyframes animate-typescript {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes animate-typescript {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@-webkit-keyframes animate-angular {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes animate-angular {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@-webkit-keyframes animate-ionic {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes animate-ionic {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+
+
+@-webkit-keyframes animate-wordpress {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+
+
+@keyframes animate-wordpress {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@-webkit-keyframes animate-php {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes animate-php {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@-webkit-keyframes animate-sql {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes animate-sql {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@-webkit-keyframes animate-webpack {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes animate-webpack {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@-webkit-keyframes animate-git {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes animate-git {
+  0% {
+    width: 10px;
+  }
+  100% {
+    width: 60%;
+  }
+}

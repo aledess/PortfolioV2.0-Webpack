@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  background-color: $bg-color;
+  color: white;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  border: 0;
+}
+
+ul,
+ul li {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  // grid-column: 2 / -1;
+  // height: 100vh;
+  padding-left: 5rem;
+  position: relative;
+
+  @include respond(tab-port) {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 10rem;
+    overflow: hidden;
+  }
+  @include respond(phone) {
+    min-height: -webkit-fill-available;
+  }
+}
+
+
